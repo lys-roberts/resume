@@ -1,0 +1,96 @@
+body{
+    background: #FFFBF5;
+    color: #674188;
+    margin: 0;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+    font-size: 16px;
+}
+
+a{
+    color: #674188;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+a:hover{
+    color: #B5D5C5;
+}
+
+.webfont{
+    font-family: "Delius Swash Caps", cursive, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body, .webfont2{
+    font-family: "Montserrat", sans-serif;
+}
+
+#header{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#header .header-info{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#header .header-info img{
+    margin: 10px;
+}
+
+#main-content{
+    display: flex;
+    padding: 10px;
+    flex-flow: column;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.info-wrapper{
+    margin-left: 20px;
+}
+
+#footer{
+    padding: 20px;
+    text-align: center;
+    background: #674188;
+    box-sizing: border-box;
+}
+
+#footer p{
+    color: #FFFBF5;
+    margin: 0;
+}
+
+@media (min-width:1024px) {
+    #header .header-info{
+        flex-wrap: nowrap;
+    }
+
+    #main-content{
+        flex-flow: row wrap;
+    }
+
+    #main-content > div{
+        width: 50%;
+    }
+
+    .info-wrapper{
+        margin-left: 40px;
+    }
+}
