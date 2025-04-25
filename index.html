@@ -4,34 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Resume</title>
+
+    <link href="./style.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="header">
+    <div id="header">
 
         <div class="header-info">
-            <img src="./assets/images/img-profile.webp" style="width: 100%; max-width: 200px;" alt="profile image of Alyssa" />
-            <h1>Alyssa Roberts</h1>
+            <img src="./assets/images/img-profile.jpeg" style="width: 100%; max-width: 200px;" alt="profile image of Alyssa" />
+            <h1 class="webfont">Alyssa Roberts</h1>
         </div>
         
     </div>
 
-    <div class="main-content">
+    <div id="main-content">
 
-        <div class="row-first">
-            <h2>Summary</h2>
-            <p>I am a reliable, hardworking, Front-End Developer with experience as a working supervisor.</p>
+        <div class="first-row">
+            <h2 class="webfont">Summary</h2>
+            <div class="info-wrapper">
+                <p>I am a reliable, hardworking, Front-End Developer with experience as a working supervisor.</p>
+            </div>
         </div>
 
-        <div class="row-second">
-            <h2>Education</h2>
-            <ul>
-                <li><p>Bachelors of Fine Arts, Visual Communications - Cazenovia College (2014-2017)</p></li>
-            </ul>
+        <div class="second-row">
+            <h2 class="webfont">Education</h2>
+            <div class="info-wrapper">
+                <ul>
+                    <li><p>Bachelors of Fine Arts, Visual Communications - Cazenovia College (2014-2017)</p></li>
+                </ul>
+            </div>
         </div>
 
-        <div class="row-third">
-            <h2>Work Experience</h2>
+        <div class="third-row">
+            <h2 class="webfont">Work Experience</h2>
             <div class="info-wrapper">
                 <h3>LeadVenture | NetDriven Website Development Supervisor</h3>
                 <p>2021 - 2025</p>
@@ -62,28 +72,33 @@
                 </ul>
             </div>
         </div>
-
-        <div class="row-fourth">
-            <h2>Skills</h2>
-            <ul>
-                <li><p><strong>Languages:</strong> HTML5, CSS, SASS, jQuery, Javascript</p></li>
-                <li><p><strong>CMS:</strong> DNN (DotNetNuke), WordPress, Vnext, InteractRV (ICC)</p></li>
-                <li><p><strong>Programs:</strong> Adobe Creative Suite, Microsoft, Visual Studio Code, FileZilla</p></li>
-                <li><p><strong>Soft Skills:</strong> Leadership, Written/Oral Communications, Time Management, Handled multiple projects, Meet deadlines, Work Independently, Integrity</p></li>
-            </ul>
+        
+        <div class="fourth-row">
+            <h2 class="webfont">Skills</h2>
+            <div class="info-wrapper">
+                <ul>
+                    <li><p><strong>Languages:</strong> HTML5, CSS, SASS, jQuery, Javascript, Bootstrap</p></li>
+                    <li><p><strong>CMS:</strong> DNN (DotNetNuke), WordPress, Vnext, InteractRV (ICC)</p></li>
+                    <li><p><strong>Programs:</strong> Adobe Creative Suite, Microsoft, Visual Studio Code, FileZilla</p></li>
+                    <li><p><strong>Soft Skills:</strong> Leadership, Written/Oral Communications, Time Management, Handled multiple projects, Meet deadlines, Work Independently, Integrity</p></li>
+                    <li><p><strong>Learning:</strong> React.js, SQL, Next.js, and more</p></li>
+                </ul>
+            </div>
         </div>
 
-        <div class="row-fifth">
-            <h2>Others</h2>
-            <ul>
-                <li><p><strong>Hobbies:</strong> Reading, playing video games, pottery, crocheting</p></li>
-                <li><a href="mailto:alyssaalaniz@hotmail.com" title="Contact Me">Contact Me</a></li>
-            </ul>
+        <div class="fifth-row">
+            <h2 class="webfont">Others</h2>
+            <div class="info-wrapper">
+                <ul>
+                    <li><p><strong>Hobbies:</strong> Reading, playing video games, pottery, crocheting</p></li>
+                    <li><a href="mailto:alyssaalaniz@hotmail.com" title="Contact Me">Contact Me</a></li>
+                </ul>
+            </div>
         </div>
 
     </div>
 
-    <div class="footer">
+    <div id="footer">
         <p>&copy; 2025 Alyssa Roberts. All rights reserved.</p>
     </div>
 
