@@ -123,8 +123,13 @@ nav a{
 }
 
 @media (min-width:1024px) {
+    
     #header .header-info{
         flex-wrap: nowrap;
+    }
+
+    #menu-nav {
+        flex-flow: row nowrap;
     }
 
     #main-content{
